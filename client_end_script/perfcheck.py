@@ -23,3 +23,4 @@ class MySeqTest(HttpUser):
     wait_time=constant(1)
     host =test_host
     tasks = [PerfCheck]
+

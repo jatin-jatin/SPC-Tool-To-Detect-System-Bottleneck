@@ -32,6 +32,7 @@ def generate_test_id():
     # test_id = current_date + "otest"
     # print(test_id)
     # test_id+="otest"
+    # demo
     return test_id
 
 def create_test_directory(test_id):
