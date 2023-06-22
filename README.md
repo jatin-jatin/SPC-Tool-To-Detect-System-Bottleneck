@@ -13,7 +13,7 @@
 ## Example Usage
 
 ### Consider the following Architecture
-![Server Architecture](https://github.com/jatin-jatin/SPS-Tool-To-Detect-System-Bottleneck/blob/main/pictures/architecture.png)
+![Server Architecture](https://github.com/jatin-jatin/SPS-Tool-To-Detect-System-Bottleneck/blob/main/pictures/architecture-new.png)
 * Outer-nginx : Nginx Layer which hosts multiple other application as well.
 * Inner-nginx : contains configuration settings for load balancing traffic .
 * uWSGI : web server gateway interface defined used by python frameworks for running web apps
@@ -24,7 +24,7 @@
 #### 1. Register the sys_perf_check web end point
 * The **web end point** should have the following url structure **https://host.com/sys_perf_check/<test-id>/users/**
 * It should run for a bounded time we have kept in 10ms but it is configurable. Refer [sample]() in python
-**IMG**
+![Server Architecture](https://github.com/jatin-jatin/SPS-Tool-To-Detect-System-Bottleneck/blob/main/pictures/endpoint.png)
 
 #### 2. Run the **server_end_script**
 * It requires a **components.json** file that contains the location of component logs. Refer [sample]()

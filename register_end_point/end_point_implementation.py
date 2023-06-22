@@ -7,7 +7,3 @@ def sys_check_fun():
         y=y+1
         
 
-x=timeit.default_timer()
-sys_check_fun()
-y=timeit.default_timer()
-print(y-x)
