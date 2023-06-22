@@ -39,7 +39,7 @@
 ![client_end](https://github.com/jatin-jatin/SPS-Tool-To-Detect-System-Bottleneck/blob/main/pictures/client_end.png)
 <!-- **IMG** -->
 
-### Result
+## Result
 * We tried two configurations of **uwsgi**. 
 * One where it is poorly configured and other where it is properly configured.
 ![uWSGI configurations](https://github.com/jatin-jatin/SPS-Tool-To-Detect-System-Bottleneck/blob/main/pictures/uwsgi_config.png)
