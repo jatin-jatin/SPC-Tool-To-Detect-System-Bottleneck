@@ -22,7 +22,7 @@
 ### Steps in Using SPC
 
 #### 1. Register the sys_perf_check web end point
-* The **web end point** should have the following url structure **https://host.com/sys_perf_check/<test-id>/users/**
+* The **web end point** should have the following url structure **host.com/sys_perf_check/test-id/users/**
 * It should run for a bounded time we have kept in 10ms but it is configurable. Refer [sample](https://github.com/jatin-jatin/SPS-Tool-To-Detect-System-Bottleneck/blob/main/register_end_point/end_point_implementation.py) in python
 ![Register End point](https://github.com/jatin-jatin/SPS-Tool-To-Detect-System-Bottleneck/blob/main/pictures/endpoint.png)
 
